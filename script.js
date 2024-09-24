@@ -5,11 +5,11 @@ function togglemode() {
 
   const img = document.querySelector('#caixa1 img')
   if(html.classList.contains('light')){
-    img.setAttribute("src", "./assets/avatar-light.png")
-    img.setAttribute (alt = "foto de Mayk Brito oculos escuro")
+    img.setAttribute("src", "./assets/avatarFundoDesfoc.png")
+    img.setAttribute (alt = "foto de tony")
     }  else {
-      img.setAttribute("src", "./assets/avatar.png")
-      img.setAttribute((alt = "foto de Mayk Brito"))
+      img.setAttribute("src", "./assets/avatarFundoDesfoc.png")
+      img.setAttribute((alt = "foto de Tony"))
 
     }
     
